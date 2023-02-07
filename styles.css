@@ -1,0 +1,67 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Open+Sans&Display=Swap");
+Body {
+    Font-Family: "Open Sans", Sans-Serif;
+    Margin: 0;
+    background-color: #cadabc;
+}
+
+.partiegauche{
+    width: 30%;
+    border: solid; 
+}
+  
+.partiecentre{
+   
+    width: 35%;
+    border-collapse: collapse;
+    border: solid; 
+
+}
+  
+.partiedroite{
+    width: 30%;
+    border-collapse: collapse;
+    border: solid; 
+
+    
+}
+.box{
+    display: flex;
+    align-items: stretch;
+    height: 1000px;
+}
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    background-color: #f6f6f6;
+  }/* Spacing */
+  td, th {
+    border: 1px solid #999;
+    padding: 20px;
+  }
+  th {
+    background: brown;
+    color: white;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+  }
+  .primary{
+    background-color: #000000
+  }
+  
+  tfoot > tr  {
+    background: black;
+    color: white;
+  }
+  tbody > tr:hover {
+    background-color: #ffc107;
+  }
+  
+  h1 {
+    /* Centrer horizontalement */
+    text-align: center;
+  }
